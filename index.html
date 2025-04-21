@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OCR Image Editor</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>OCR Image Editor</h1>
+        <p>Edita el texto de tus imágenes manteniendo el estilo original</p>
+    </header>
+
+    <main>
+        <!-- Carga de imagen -->
+        <section id="upload-section">
+            <input type="file" id="image-input" accept="image/*" />
+            <button id="process-btn">Detectar Texto</button>
+        </section>
+
+        <!-- Lienzo para imagen y texto -->
+        <section id="canvas-section">
+            <canvas id="image-canvas"></canvas>
+        </section>
+
+        <!-- Opciones de exportación -->
+        <section id="export-section">
+            <button id="export-btn">Exportar Imagen</button>
+        </section>
+    </main>
+
+    <footer>
+        <small>Desarrollado con ♥ usando Tesseract.js y Canvas API</small>
+    </footer>
+
+    <!-- Scripts principales -->
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4/dist/tesseract.min.js"></script>
+    <script src="js/ocr.js"></script>
+    <script src="js/canvas.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

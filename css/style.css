@@ -1,0 +1,113 @@
+/* ------------------------------
+   Estilos base y layout general
+------------------------------ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header,
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* ------------------------------
+   Sección de carga de imagen
+------------------------------ */
+
+#upload-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#image-input {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#process-btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 1rem;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#process-btn:hover {
+    background-color: #004c99;
+}
+
+/* ------------------------------
+   Sección del canvas
+------------------------------ */
+
+#canvas-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#image-canvas {
+    border: 1px solid #ccc;
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+    cursor: crosshair;
+}
+
+/* ------------------------------
+   Sección de exportación
+------------------------------ */
+
+#export-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#export-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#export-btn:hover {
+    background-color: #1e7e34;
+}
+
+/* ------------------------------
+   Footer
+------------------------------ */
+
+footer {
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: #888;
+}

@@ -1,0 +1,15 @@
+ocr-image-editor/
+├── index.html
+├── /assets/
+│   └── logo.png            # (Opcional) Logo del proyecto o ícono
+├── /css/
+│   └── style.css           # Estilos globales y layout responsivo
+├── /js/
+│   ├── main.js             # Lógica principal de la app
+│   ├── ocr.js              # Lógica de reconocimiento OCR con Tesseract.js
+│   ├── canvas.js           # Funciones relacionadas al render y edición en Canvas
+│   └── ui.js               # Interacciones UI, botones, inputs, etc.
+├── /libs/
+│   └── tesseract.min.js    # Versión de Tesseract.js para usar offline si se desea
+└── /export/
+    └── (temporal para imágenes exportadas si se desea gestionar vía enlace)
